@@ -59,6 +59,6 @@ TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_KEY_LOC := "footer"
 TW_INCLUDE_FUSE_EXFAT := true
 TW_BOARD_CUSTOM_GRAPHICS := ../../../device/sony/taoshan/recovery/graphics/twrpgraphics.c
-TW_BRIGHTNESS_PATH := /sys/devices/platform/msm_ssbi.0/pm8038-core/pm8xxx-led/leds/brightness
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_NO_USB_STORAGE := true
